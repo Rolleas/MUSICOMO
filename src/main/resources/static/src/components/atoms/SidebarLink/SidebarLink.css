@@ -1,0 +1,25 @@
+.sidebar-link-container {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.sidebar-link-container:hover > span{
+    color: #FF6647;
+}
+
+.sidebar-link-container:hover > div > svg > path {
+    fill: #FF6647;
+}
+
+.sidebar-link-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.sidebar-link-icon > div > svg > path {
+    fill: #838383;
+}

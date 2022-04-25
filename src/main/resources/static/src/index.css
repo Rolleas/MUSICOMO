@@ -11,3 +11,18 @@ body {
 code {
   font-family: 'Red Hat Display', sans-serif;
 }
+
+
+.cv-link-01 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.cl-01 {
+  color: #FF6647;
+}
+
+.cl-02 {
+  color: #838383;
+}
