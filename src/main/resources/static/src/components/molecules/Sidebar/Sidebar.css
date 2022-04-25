@@ -1,0 +1,15 @@
+.sidebar-container {
+    width: 250px;
+    background: #212124;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-content {
+    margin-top: 30px;
+    width: 188px;
+}
