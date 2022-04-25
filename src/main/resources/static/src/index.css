@@ -12,11 +12,18 @@ code {
   font-family: 'Red Hat Display', sans-serif;
 }
 
+#content {
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 260px;
+}
 
 .cv-link-01 {
   font-style: normal;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
 }
 
 .cl-01 {

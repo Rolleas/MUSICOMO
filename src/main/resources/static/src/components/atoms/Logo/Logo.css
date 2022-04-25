@@ -3,6 +3,7 @@
     height: 38px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .logo-icon {
@@ -13,7 +14,7 @@
 .logo-text {
     font-weight: 600;
     font-size: 24px;
-    line-height: 24px;
     color: #FF6647;
     margin-left: 10px;
+    padding-top: 5px;
 }
