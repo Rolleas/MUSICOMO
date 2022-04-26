@@ -1,6 +1,6 @@
-.Search-Container {
-    width: 430px;
-    margin: 0 auto;
+.search-container {
+    max-width: 430px;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
 }
 
