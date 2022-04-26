@@ -40,6 +40,14 @@ code {
   font-size: 0.625rem;
 }
 
+.cl-heading {
+  margin: 0;
+}
+
+.cl.upper {
+  text-transform:uppercase
+}
+
 .cl-01 {
   color: #FF6647;
 }
@@ -56,7 +64,18 @@ code {
   color: #C4C4C4;
 }
 
+.cl-05 {
+  color: #EF2F62;
+}
+
+.cl.default {
+  color: #ffffff;
+}
 a {
   transition: 0.5s ease;
   text-decoration: none;
+}
+
+svg > path {
+  transition: 0.5s ease;
 }

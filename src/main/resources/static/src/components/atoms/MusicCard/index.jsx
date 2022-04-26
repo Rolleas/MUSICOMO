@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 export const MusicCard = ({image}) => {
     return (
-        <selection className="col-5 col-sm-4 col-lg-2">
+        <div className="col-5 col-sm-4 col-lg-2">
             <div className="music-card-box">
                 <div className="music-card-img">
                     <img src={alb} />
@@ -17,6 +17,6 @@ export const MusicCard = ({image}) => {
                     <span className="cl-04 cl-title-02">ALBUM</span>
                 </div>
             </div>
-        </selection>
+        </div>
     )
 }
