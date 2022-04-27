@@ -1,0 +1,13 @@
+.content-selection-row {
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.content-selection-grid {
+    margin-right: -10px;
+    margin-left: -10px;
+}
