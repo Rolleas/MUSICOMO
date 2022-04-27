@@ -7,17 +7,7 @@ export const ContentSelection = () => {
         <selection className="row row--grid">
             <ContentTitle/>
             <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
-            <MusicCard/>
+
         </selection>
     )
 }

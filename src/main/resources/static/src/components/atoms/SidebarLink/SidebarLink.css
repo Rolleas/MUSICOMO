@@ -46,3 +46,20 @@
 .sidebar-link-icon > svg > path {
     fill: #838383;
 }
+
+.sidebar-link-hill {
+    width: 14px;
+    height: 58px;
+    margin-right: 25px;
+    position: absolute;
+    left: 0;
+    background: url("../../../assets/sidebarHill.svg");
+}
+
+.sidebar-link-hill > svg > g > path {
+    filter: drop-shadow(25px 0px 96px rgba(236, 24, 8, 0.12)) drop-shadow(5px 0px 15.6px rgba(236, 24, 8, 0.24));
+}
+
+.sidebar-link-hill.disable {
+    display: none;
+}

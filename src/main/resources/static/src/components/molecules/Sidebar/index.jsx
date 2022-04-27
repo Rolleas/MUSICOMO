@@ -24,6 +24,7 @@ export const Sidebar = () => {
                         link={link.link}
                         icon={link.icon}
                         style={active === link.name ? 'sidebar-link-container-active' : 'sidebar-link-container'}
+                        hill={active === link.name ? 'sidebar-link-hill' : ''}
                         onClick={e => onClick(link.name)}
                     />)}
                 </div>
