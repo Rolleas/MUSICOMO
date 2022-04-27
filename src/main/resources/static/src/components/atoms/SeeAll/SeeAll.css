@@ -1,0 +1,16 @@
+.see-all {
+    display: flex;
+    align-items: center;
+}
+
+.see-all > svg {
+    padding-left: 10px;
+}
+
+.see-all:hover > svg > path {
+    stroke: #838383;
+}
+
+.see-all:hover {
+    color: #838383;
+}
