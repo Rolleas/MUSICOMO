@@ -1,11 +1,22 @@
 import "./ContentSelection.css"
 import {MusicCard} from "../../atoms/MusicCard";
-import {ContentTitle} from "../../atoms/ContentTitle";
+import {ContentTitle} from "../ContentTitle";
 
 export const ContentSelection = () => {
     return (
         <selection className="row row--grid">
-            <ContentTitle/>
+            <ContentTitle arrow={true}/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
+            <MusicCard/>
             <MusicCard/>
 
         </selection>

@@ -1,0 +1,52 @@
+.top-charts-card-title-container {
+    width: 100%;
+    display: flex;
+}
+
+.top-charts-card-title-box > a > h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    transition: 0.5s ease;
+}
+
+.top-charts-card-title-box > a > h3:hover  {
+    color: #FF6647;
+}
+
+.top-charts-card-title-box > p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.top-charts-card-title-name {
+    display: flex;
+    align-items: center;
+}
+
+.top-charts-card-title-name.j {
+    justify-content: flex-end;
+}
+
+.top-charts-card-title-name.e {
+    padding-top: 6px;
+}
+
+.top-charts-card-title-fire {
+    padding-left: 6px;
+    padding-bottom: 4px;
+}
+
+.top-charts-card-title-stats {
+    width: 100%;
+    flex-flow: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-charts-card-title-name.i > svg {
+    padding-right: 5px;
+}
+
+.top-charts-card-title-name.t:hover > svg > path{
+    fill: #FF6647;
+}
