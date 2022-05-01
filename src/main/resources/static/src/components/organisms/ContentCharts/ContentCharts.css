@@ -7,10 +7,19 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .content-charts-box {
-    position: absolute;
-    height: 310px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.top-charts-other {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 4000px;
 }

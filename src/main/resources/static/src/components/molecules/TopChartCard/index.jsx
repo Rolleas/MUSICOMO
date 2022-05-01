@@ -1,6 +1,6 @@
 import "./TopChartCard.css"
 import chartIMG from "../../../assets/img.png"
-import {TopChartCardTitle} from "../../atoms/TopChartsCardTitle";
+import {TopChartCardTitle} from "../TopChartsCardTitle";
 
 export const TopChartCard = () => {
     return (
